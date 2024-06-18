@@ -109,6 +109,9 @@ figcaption {
     font-style: italic;
     color: #555;
 }
-a:visited {
-    color:#61dafb;
+.link:visited {
+    color: rgb(0, 102, 204);
+}
+.link{
+    color: #61dafb;
 }
