@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet de classification automatique - Portfolio</title>
+    <title>Eveil à l'IUT2. - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Projet de classification automatique</h1>
+            <h1>Eveil à l'IUT2.</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="#details">Détails</a></li>
                     <li><a href="#technologies">Technologies</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,21 +25,19 @@
         <section id="details" class="section">
             <div class="container">
                 <h2>Détails du Projet</h2>
-                <p>Pour ce projet le but était de créer des lexiques a partir de de dépeches puis d'utiliser ces lexiques pour classer d'autre dépéches.
-                    Il était aussi important d'optimiser au maximum la précision et la rapidité d'execution du code. 
-                    Tout cela devait être réalisé en une semaine par groupe de deux personnes,
-                    avec une présentation orale de notre programme et un compte rendu en anglais.
-                   Pour commencer, le point le plus important de ce projet était de mettre en pratique 
-                   les compétences que nous avions apprises dans le module R1.01, 
-                   en les appliquant de manière concrète pour répondre à un besoin spécifique.
-                    Travailler en équipe était également crucial, 
-                    ce qui signifiait que nous devions répartir les tâches de manière équitable afin d'éviter les doublons 
-                    et de garantir que nous travaillions tous les deux de manière équilibrée. Parfois,
-                     nous avons travaillé ensemble sur des fonctions plus complexes lorsque l'un d'entre nous était bloqué.
-                     En plus de répondre aux besoins de base, nous avons cherché à optimiser notre programme. 
-                     Pour cela, nous avons développé des outils pour mesurer l'efficacité de nos fonctions. 
-                     Cela nous a permis de comprendre à quel point elles étaient performantes et d'identifier les éventuels
-                      goulots d'étranglement ou les améliorations possibles.</p>
+                <p>Nous devions créer un jeu en Python avec trois contraintes :
+                    Garder le rythme (comme contrainte de gameplay),L'IUT2 (comme contrainte de décor),Lancer le jeu avec des arguments(comme contrainte de programmation). 
+                    De plus, cela devait être réalisé en seulement quatre jours. Nous avons donc imaginé un jeu se déroulant dans des décors ressemblant à ceux de l'IUT
+                    où le joueur doit parcourir des salles, tuer des ennemis et récupérer des clés pour avancer. 
+                    Pour intégrer le rythme, nous avons conçu le jeu de sorte que le joueur ne puisse tirer que si la musique est dans le bon rythme ;
+                    sinon, il doit fuir. Le jeu alterne donc entre des phases d'attaque et de défense.
+                    Les arguments servaient à gérer la difficulté ou à passer en mode test. Pour finir, nous devions le présenter devant un jury, puis devant un amphithéâtre.
+                    Le jeu s'inspire donc du système des roguelike, mais il faudrait ajouter certaines fonctionnalités comme des items ou une génération procédurale des niveaux 
+                    pour qu'il en soit réellement un.
+                    Personnellement, je me suis occupé de nombreuses tâches en back. J'ai notamment beaucoup travaillé sur les ennemis et leur comportement. 
+                    J'ai également entièrement créé le combat de boss, qui est un monstre avec trois phases de difficulté croissante.
+                    Comme prévu, j'ai développé des compétences en programmation Python. J'ai aussi développé une meilleure organisation au sein d'un projet,
+                    car nous étions quatre sur quatre jours, ce qui demande d'être efficace.</p>
             </div>
         </section>
 
@@ -48,25 +45,13 @@
             <div class="container">
                 <h2>Technologies Utilisées</h2>
                 <ul class="skills-list">
-                    <li>JAVA</li>
+                    <li>Python pygame</li>
+                    <li>Git</li>
                 </ul>
             </div>
         </section>
     </main>
-    <section id="gallery" class="section">
-        <div class="container">
-            <h2>Galerie</h2>
-            <p>captures d'écran du projet de classification des depeches.</p>
-            <figure>
-                <img src="img/lexiqueDepeche.png" alt="Image d'un lexique" style="max-width: 100%;">
-                <figcaption>extrait d'un lexique généré a partir de depeches le chiffre a droite est le nombre d'occurence</figcaption>
-            </figure>
-            <figure>
-                <img src="img/resultatDepeche.png" alt="Image du resultat" style="max-width: 100%;">
-                <figcaption>résultat lors de la génération des lexique et de la comparaison de deux dépeche par rapport a un lexique</figcaption>
-            </figure>
-        </div>
-    </section>
+
     <footer>
         <div class="container">
             <p>Vous pouvez me contacter à l'adresse suivante : <a class="link" href="mailto:conjardmaxime@gmail.com">conjardmaxime@gmail.com</a></p>
